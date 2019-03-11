@@ -1,7 +1,8 @@
 # alusus-vscode-syntax README
 
 Alusus highlight for Visual Studio Code
-| : -- : |
+| Screenshot |
+| :---: |
 | ![alt](https://raw.githubusercontent.com/Alusus/alusus-vscode-syntax/master/screenshots/screenshot1.png) |
 ## Release Notes
 
