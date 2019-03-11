@@ -1,0 +1,25 @@
+{
+	"alusus module": {
+		"prefix": "amodule",
+		"body": [
+			"import \"Srl/Console.alusus\";\n",
+			"def ${NewModule}: module {",
+			"\tdef ${start}: function {",
+			"\t\tSrl.Console.print(\"${Hello}\");",
+			"\t};",
+			"};\n",
+			"run ${NewModule}.${start};"
+		],
+		"description": "create new module"
+	},
+	"alusus for": {
+		"prefix": "afor",
+		"body": [
+			"def ${i}: int;",
+			"for ${i}=0, ${i}<${10}, ${i}++ {",
+			"\t$2",
+			"};"
+		],
+		"description": "create new module"
+	}
+}
