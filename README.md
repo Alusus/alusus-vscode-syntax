@@ -14,7 +14,6 @@ first commit :D
 
 ### For more information
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/alusus)
 * [Alusus Syntax Reference](https://alusus.net/Doc/reference.ar.html)
 
 **Enjoy!**
