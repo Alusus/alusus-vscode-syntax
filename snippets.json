@@ -21,5 +21,12 @@
 			"};"
 		],
 		"description": "create new module"
+	},
+	"alusus console print": {
+		"prefix": "aprint",
+		"body": [
+			"Srl.Console.print($0);"
+		],
+		"description": "create new module"
 	}
 }
