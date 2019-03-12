@@ -8,6 +8,11 @@ Alusus highlight for Visual Studio Code
 
 ## Release Notes
 
+### 0.0.2
+- support comments
+- add aprint snippet 
+shortcut for ```Srl.Console.print();```
+
 ### 0.0.1
 
 first commit :D
