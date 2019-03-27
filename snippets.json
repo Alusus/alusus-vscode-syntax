@@ -1,6 +1,6 @@
 {
 	"alusus module": {
-		"prefix": "amodule",
+		"prefix": "module",
 		"body": [
 			"import \"Srl/Console.alusus\";\n",
 			"def ${1:NewModule}: module {",
@@ -10,40 +10,47 @@
 			"};\n",
 			"run ${1:NewModule}.${2:start};"
 		],
-		"description": "create new module"
+		"description": "Code snippet for module declaration"
+	},
+	"alusus import": {
+		"prefix": "import",
+		"body": [
+			"import \"${1:Hello World}\";"
+		],
+		"description": "Code snippet for import statement"
 	},
 	"alusus print": {
-		"prefix": "aprint",
+		"prefix": "print",
 		"body": [
 			"Srl.Console.print(${1:\"Hello World\"});"
 		],
-		"description": "create new module"
+		"description": "Code snippet for print declaration"
 	},
 	"alusus for": {
-		"prefix": "afor",
+		"prefix": "for",
 		"body": [
 			"def ${1:index}: int;",
 			"for ${1:index}=0, ${1:index}<${2:length}, ${1:index}++ {",
 			"\t$3",
 			"};"
 		],
-		"description": "create new module"
+		"description": "Code snippet for a for loop"
 	},
 	"alusus def": {
-		"prefix": "adef",
+		"prefix": "def",
 		"body": [
 			"def ${1:variable}: ${2:int};",
 			"${1:variable} = ${3:0};"
 		],
-		"description": "create new module"
+		"description": "Code snippet for def statement"
 	},
 	"alusus console print": {
-		"prefix": "afunc",
+		"prefix": "func",
 		"body": [
-			"def ${1:functionName}: function ($2) {",
+			"def ${1:functionName}: ${4:function} ($2) {",
 			"\t$3",
 			"};"
 		],
-		"description": "create new module"
+		"description": "Code snippet for function declaration"
 	}
 }
