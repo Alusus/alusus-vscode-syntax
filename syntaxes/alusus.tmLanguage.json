@@ -19,7 +19,7 @@
 				},
 				{
 					"name": "storage.type.class.alusus",
-					"match": "\\b(module|function|type|macro)\\b"
+					"match": "\\b(module|function|func|type|macro)\\b"
 				},
 				{
 					"name": "constant.language.alusus",

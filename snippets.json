@@ -3,29 +3,46 @@
 		"prefix": "amodule",
 		"body": [
 			"import \"Srl/Console.alusus\";\n",
-			"def ${NewModule}: module {",
-			"\tdef ${start}: function {",
-			"\t\tSrl.Console.print(\"${Hello}\");",
+			"def ${1:NewModule}: module {",
+			"\tdef ${2:start}: function(argCount: Int, argv: ptr[array[ptr[Char]]]) {",
+			"\t\tSrl.Console.print(${3:\"Hello World\"});",
 			"\t};",
 			"};\n",
-			"run ${NewModule}.${start};"
+			"run ${1:NewModule}.${2:start};"
+		],
+		"description": "create new module"
+	},
+	"alusus print": {
+		"prefix": "aprint",
+		"body": [
+			"Srl.Console.print(${1:\"Hello World\"});"
 		],
 		"description": "create new module"
 	},
 	"alusus for": {
 		"prefix": "afor",
 		"body": [
-			"def ${i}: int;",
-			"for ${i}=0, ${i}<${10}, ${i}++ {",
-			"\t$2",
+			"def ${1:index}: int;",
+			"for ${1:index}=0, ${1:index}<${2:length}, ${1:index}++ {",
+			"\t$3",
 			"};"
 		],
 		"description": "create new module"
 	},
-	"alusus console print": {
-		"prefix": "aprint",
+	"alusus def": {
+		"prefix": "adef",
 		"body": [
-			"Srl.Console.print($0);"
+			"def ${1:variable}: ${2:int};",
+			"${1:variable} = ${3:0};"
+		],
+		"description": "create new module"
+	},
+	"alusus console print": {
+		"prefix": "afunc",
+		"body": [
+			"def ${1:functionName}: function ($2) {",
+			"\t$3",
+			"};"
 		],
 		"description": "create new module"
 	}
