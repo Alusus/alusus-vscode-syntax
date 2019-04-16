@@ -3,8 +3,8 @@
 		"prefix": "module",
 		"body": [
 			"import \"Srl/Console.alusus\";\n",
-			"def ${1:NewModule}: module {",
-			"\tdef ${2:start}: function(argCount: Int, argv: ptr[array[ptr[Char]]]) {",
+			"module ${1:NewModule} {",
+			"\tfunc ${2:start}(argCount: Int, argv: ptr[array[ptr[Char]]]) {",
 			"\t\tSrl.Console.print(${3:\"Hello World\"});",
 			"\t};",
 			"};\n",
@@ -39,18 +39,25 @@
 	"alusus def": {
 		"prefix": "def",
 		"body": [
-			"def ${1:variable}: ${2:int};",
-			"${1:variable} = ${3:0};"
+			"def ${1:variable}: ${2:int} = ${3:0};"
 		],
 		"description": "Code snippet for def statement"
 	},
-	"alusus console print": {
+	"alusus function": {
 		"prefix": "func",
 		"body": [
-			"def ${1:functionName}: ${4:function} ($2) {",
-			"\t$3",
+			"${5:func} ${1:functionName}(${2:params}): ${3:Void} {",
+			"\t${4:\/\/code}",
 			"};"
 		],
 		"description": "Code snippet for function declaration"
+	},
+	"alusus extend function": {
+		"prefix": "extend",
+		"body": [
+			"\t@expname[${1:extendFunctionName}]",
+			"${4:func} ${2:functionName}(${2:params}): ${3:Void};"
+		],
+		"description": "Code snippet for extend function from shared library"
 	}
 }

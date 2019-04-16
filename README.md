@@ -8,6 +8,10 @@ Alusus highlight for Visual Studio Code
 
 ## Release Notes
 
+### 0.0.5
+- add Syntax highlight for ~ptr and ~cnt
+- add snippet for @expname 
+
 ### 0.0.2
 - support comments
 - add aprint snippet 

@@ -1,9 +1,9 @@
 {
     "name": "alusus-vscode-syntax",
     "displayName": "alusus-vscode-syntax",
-    "description": "Alusus syntax highlight",
+    "description": "Alusus Syntax highlight with snippets",
     "publisher": "Salem",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "engines": {
         "vscode": "^1.32.0"
     },
