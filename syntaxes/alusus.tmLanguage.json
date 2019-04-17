@@ -15,7 +15,7 @@
 		"keywords": {
 			"patterns": [{
 					"name": "keyword.control.alusus",
-					"match": "\\b(import|def|if|else|do|while|for|break|continue|return|run|dump_ast|dump_llvm_ir|~ptr|~cnt|array|any|alias|and|or|not|use)\\b"
+					"match": "\\b(import|def|if|else|do|while|for|break|continue|return|run|dump_ast|dump_llvm_ir|ptr|cnt|array|any|alias|and|or|not|use)\\b"
 				},
 				{
 					"name": "storage.type.class.alusus",
