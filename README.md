@@ -7,6 +7,10 @@ Alusus highlight for Visual Studio Code
 |![alt](https://raw.githubusercontent.com/Alusus/alusus-vscode-syntax/master/screenshots/screenshot1.png)|
 
 ## Release Notes
+### 0.0.7
+- add Syntax highlight for ~ptr, ~cnt, ~size, ptr and ref.
+- add snippet for apm.
+- update snippets.
 
 ### 0.0.5
 - add Syntax highlight for ~ptr and ~cnt

@@ -3,7 +3,7 @@
     "displayName": "alusus-vscode-syntax",
     "description": "Alusus Syntax highlight with snippets",
     "publisher": "Salem",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "engines": {
         "vscode": "^1.32.0"
     },
